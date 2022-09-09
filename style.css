@@ -1,0 +1,54 @@
+body {
+    
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+
+   
+}
+
+header{
+    text-align: center;
+}
+header, 
+footer{
+    background-color: #3c3c3c;
+    color: white;
+    height: fill;
+
+}
+.bg {
+    /* The image used */
+    background-image: url("llll.jpg");
+  
+    /* Full height */
+    height: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  a{
+    
+    color: white;
+    
+  }
+  article{
+    text-align: center;
+    text-size-adjust: 60px;
+  }
+  .Aboutmeimg1{
+   width: 40%;
+   margin-right: 50%;
+  }
+  h3{
+    text-align: left;
+    margin-left: 5%;
+    margin-right: 10%;
+  }
+  .hobbiesimg1{
+    width: 40%;
+     margin-left: 5%;
+  }
+  
